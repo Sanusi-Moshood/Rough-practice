@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-2.css">
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="text">
+                    Login
+                </div>
+                <div class="form">
+                    <form action="">
+        
+                        <div class="form-control">
+                        <small>
+                            Username
+                        </small> <br>
+                        <input type="text"  placeholder="Type your Usernme" class="form-input name" id="redborder" > <br>
+                        <span class="errmsg"></span> 
+                        </div>
+                        <div class="form-control">
+                            <small>
+                                Password
+                            </small> <br>
+                            <input type="text"  placeholder="Type your Password" class="form-input password" id="red2border" pattern="(?=.*\d) (?=.*[a-z]) (?=.*[A-Z]) .{8,}"> <br>
+                            <span class="passmsg"></span> 
+                            <div class="al-r" ><a href="" class="fpass" id="fpass"> Forgot password?</a></div>                
+                            </div>
+                            <div class="form-control login" >
+                                <input type="submit" value="LOGIN" class="logbtn" id="logbtn">
+                            </div>
+        
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="form-2.js"></script>
+</body>
+</html>
+
